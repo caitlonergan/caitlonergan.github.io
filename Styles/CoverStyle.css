@@ -7,27 +7,24 @@ body{
 	font-family:Helvetica;
 	color: purple;
 }
-@media(min-width:768px){
+/*@media(min-width:768px){
 	#wrapper{
 		display:flex;
 		justify-content:center;
 	}
 }
-
+*/
+.row{
+	justify-content: space-between;
+}
 #picdiv{
 	border:1px #ccc solid;
 	padding: 5px;
-	flex:1;
-	width: 30%;
-	height:400px;
 }
 
 #textdiv{
 	border:1px #ccc solid;
 	padding: 5px;
-	flex:1;
-	width: 70%;
-	height:400px;
 }
 
 .bold{
@@ -36,10 +33,4 @@ body{
 
 .underline{
 	text-decoration: underline;
-}
-
-.removeBulletPoints {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
