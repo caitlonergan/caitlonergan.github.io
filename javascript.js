@@ -15,7 +15,7 @@ function runsubjects(){
 			grade="C";
 		}
 		else if(score>=40 && score<55){
-			grade="B";
+			grade="D";
 		}
 		else{
 			grade="FAIL";
