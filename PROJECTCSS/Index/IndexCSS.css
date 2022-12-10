@@ -1,0 +1,73 @@
+body{
+	background:#ffffff;
+	color: #131c19;
+}
+.dividerone {
+    width: 20%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    background-color: #1d8753;
+}
+
+.text-box {
+    padding-bottom:35px;
+    padding-top:35px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom-style: none;
+    border-radius: 20px;
+    background-color: #f8f3ef ;
+}
+@media(min-width:768px){
+	#wrapper{
+		display:flex;
+		justify-content:center;
+	}
+}
+
+.dividers{
+	padding: 5px;
+	flex:1;
+}
+
+footer {
+    background-color: #1d8753;
+    margin: 0%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .contact-footer {
+      cursor: pointer;
+      color:#ffffff;
+      font-size: medium;
+      font-weight: bolder;
+      text-decoration: solid;
+      text-align: left;
+      padding-left: 40px;
+      padding-top: 40px;
+      
+      
+  }
+  
+  .subscribe-footer {
+      cursor: pointer;
+      color:#ffffff;
+      font-size: medium;
+      font-weight: bolder;
+      text-decoration: solid;
+      text-align: right;
+      padding-left: 50px;
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>💕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      
+  }
+  
+  .contact-footer:hover {
+      color:#5edd75;
+  }
+  
+  .subscribe-footer:hover {
+      color:#5edd75;
